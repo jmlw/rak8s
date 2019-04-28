@@ -1,13 +1,9 @@
 [dev]
-rak8s000    ansible_host=192.168.86.200
-rak8s001    ansible_host=192.168.86.201
-rak8s002    ansible_host=192.168.86.202
-
-[prod]
-rak8s003    ansible_host=192.168.86.203
-rak8s004    ansible_host=192.168.86.204
-rak8s005    ansible_host=192.168.86.205
+kube-master-01    ansible_host=10.0.0.1
+kube-worker-01    ansible_host=10.0.0.10
+kube-worker-02    ansible_host=10.0.0.11
+kube-worker-03    ansible_host=10.0.0.12
+kube-worker-04    ansible_host=10.0.0.13
 
 [master]
-rak8s000
-rak8s003
+kube-master-01
